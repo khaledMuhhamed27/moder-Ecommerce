@@ -84,7 +84,7 @@ class Cart extends StatelessWidget {
                                   child: CartItemss(
                                     cart: catrs[index],
                                   ),
-                                )
+                                ),
                               ],
                             ),
                           ))
