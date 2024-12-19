@@ -8,13 +8,12 @@ class MyProfile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int index = 0;
     return Scaffold(
       backgroundColor: kbgColor,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: FadeInLeft(
-          duration: Duration(milliseconds: 500),
+          duration: const Duration(milliseconds: 500),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -23,7 +22,7 @@ class MyProfile extends StatelessWidget {
               Container(
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
-                    boxShadow: [
+                    boxShadow: const [
                       BoxShadow(
                         color: kblack,
                         blurRadius: 12,
@@ -39,7 +38,7 @@ class MyProfile extends StatelessWidget {
                 ),
               ),
               // Sized
-              SizedBox(height: 40),
+              const SizedBox(height: 40),
               // My Name
 
               Container(
