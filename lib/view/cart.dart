@@ -134,11 +134,11 @@ class Cart extends StatelessWidget {
                   ],
                 ),
                 // Sized
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 // math totla
                 Row(
                   children: [
-                    Text(
+                    const Text(
                       "Total Order",
                       style: TextStyle(
                         fontSize: 20,
@@ -147,9 +147,9 @@ class Cart extends StatelessWidget {
                       ),
                     ),
                     // Sized
-                    SizedBox(width: 10),
+                    const SizedBox(width: 10),
                     // Expanded ----
-                    Expanded(
+                    const Expanded(
                       child: DottedLine(
                         dashLength: 10,
                         dashColor: Colors.black45,
@@ -158,7 +158,7 @@ class Cart extends StatelessWidget {
                     // total
                     Text(
                       "\$${(cartProvider.totalCart()).toStringAsFixed(2)} ",
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: korange,
                         fontSize: 22,
                         fontWeight: FontWeight.w600,
@@ -167,7 +167,7 @@ class Cart extends StatelessWidget {
                   ],
                 ),
                 // sized
-                SizedBox(height: 40),
+                const SizedBox(height: 40),
                 MaterialButton(
                   onPressed: () {},
                   shape: RoundedRectangleBorder(

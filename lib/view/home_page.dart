@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                           fontWeight: FontWeight.w600,
                         ),
                       ),
-                      Icon(
+                      const Icon(
                         Icons.keyboard_arrow_down,
                         color: kblack,
                         size: 20,
@@ -161,7 +161,7 @@ class _HomePageState extends State<HomePage> {
         const SizedBox(height: 35),
         // title for products
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 30),
+          padding: const EdgeInsets.symmetric(horizontal: 30),
           child: Text(
             "Let's find the best food around youg",
             style: GoogleFonts.josefinSans(

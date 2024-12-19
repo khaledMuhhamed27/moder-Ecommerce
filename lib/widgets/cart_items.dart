@@ -81,19 +81,19 @@ class CartItemss extends StatelessWidget {
                       color: kblack,
                     )),
                 // Sized
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 //
                 Row(
                   children: [
                     Row(
                       children: [
                         // Stars
-                        Icon(
+                        const Icon(
                           Icons.star_rate_rounded,
                           color: kyellow,
                         ),
                         // Sized
-                        SizedBox(width: 5),
+                        const SizedBox(width: 5),
                         // stars rate
                         Text(
                           cart.productModel.rate.toString(),
@@ -102,12 +102,12 @@ class CartItemss extends StatelessWidget {
                       ],
                     ),
                     // sized
-                    SizedBox(width: 20),
+                    const SizedBox(width: 20),
                     // Location
                     Row(
                       children: [
                         // icon
-                        Icon(
+                        const Icon(
                           Icons.location_on,
                           color: kpink,
                           size: 20,
@@ -124,7 +124,7 @@ class CartItemss extends StatelessWidget {
                   ],
                 ),
                 // Sized
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 // price
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -151,13 +151,13 @@ class CartItemss extends StatelessWidget {
                           child: Container(
                             width: 25,
                             height: 40,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: kblack,
                               borderRadius: BorderRadius.vertical(
                                 top: Radius.circular(7),
                               ),
                             ),
-                            child: Icon(
+                            child: const Icon(
                               Icons.remove,
                               color: Colors.white,
                               size: 20,
@@ -165,18 +165,18 @@ class CartItemss extends StatelessWidget {
                           ),
                         ),
                         // Sized
-                        SizedBox(width: 10),
+                        const SizedBox(width: 10),
                         // quantity
                         Text(
                           cart.quantity.toString(),
-                          style: TextStyle(
+                          style: const TextStyle(
                             color: kblack,
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
                         // +
-                        SizedBox(width: 10),
+                        const SizedBox(width: 10),
 
                         GestureDetector(
                           onTap: () {
@@ -185,13 +185,13 @@ class CartItemss extends StatelessWidget {
                           child: Container(
                             width: 25,
                             height: 40,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: kblack,
                               borderRadius: BorderRadius.vertical(
                                 top: Radius.circular(7),
                               ),
                             ),
-                            child: Icon(
+                            child: const Icon(
                               Icons.add,
                               color: Colors.white,
                               size: 20,
