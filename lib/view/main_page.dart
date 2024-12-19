@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/bottom_icons.dart';
 import 'package:flutter_application_1/consts.dart';
+import 'package:flutter_application_1/my_profile.dart';
 import 'package:flutter_application_1/view/home_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -33,14 +34,7 @@ class _MainPageState extends State<MainPage> {
         fontWeight: FontWeight.bold,
       ),
     )),
-    Center(
-        child: Text(
-      "Profile Page",
-      style: GoogleFonts.josefinSans(
-        fontSize: 40,
-        fontWeight: FontWeight.bold,
-      ),
-    )),
+    MyProfile(),
   ];
   @override
   Widget build(BuildContext context) {
