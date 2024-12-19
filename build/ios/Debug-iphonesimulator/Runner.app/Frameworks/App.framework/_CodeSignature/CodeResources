@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		1CMpOViWwC6OwI9zCfQkdyk+vtk=
+		qLc+YYcgztDsJ5QS5UvMn0/Y6Rs=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		b6tFJwyXS/VL3jQzM7m9+dEa/lM=
+		8sdaQDpiumh0VkS2oI//hj7jjqs=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -27,6 +27,10 @@
 		<key>flutter_assets/assets/food-delivery(foodel)/berry-bonanza-waffle.png</key>
 		<data>
 		Pb9v6vPxpB0wApcLuF2gHCZ32aM=
+		</data>
+		<key>flutter_assets/assets/food-delivery(foodel)/binary_khaled.jpeg</key>
+		<data>
+		sxQYZt6iohaoqK0XwbiSqFUgdYk=
 		</data>
 		<key>flutter_assets/assets/food-delivery(foodel)/burger.png</key>
 		<data>
@@ -110,7 +114,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		gY316eDcktlHZkEfKUvTNG6vX3I=
+		IRFMcguOXo/DX/96bQrkjZO8xgg=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -131,14 +135,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9NzjXA2JsrI02Keg4tQ/VRVTzhq1Pi9n0x/uQAcieqI=
+			JwjJ+5PJRC+LLEvuVBuxP+pauaLgB/DThRqOg8otpic=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pAdoDZeHXdjiJe9SfFNISPze2S0Ue1ZnqFmqJeMS7gg=
+			gdJW/TetQdMfS3tElfJ6RI3OY9HM2HWCdZprg60ssL0=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -160,6 +164,13 @@
 			<key>hash2</key>
 			<data>
 			GWeBX7T+Qzw5rP/h1yEqlr2n4/dzINYmbSaxtGxHdMM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/food-delivery(foodel)/binary_khaled.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q4DZWs+xE1//63YMLWsKST9nhCClKkLILpbR4oKkeRg=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/food-delivery(foodel)/burger.png</key>
@@ -306,7 +317,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9bMIQTJhKnemLpHOfnHMYHPwcOJJtYIz4Uf+NSnaQ+g=
+			txPykLOy0qLBB0BeJpeo1j4N8JP4Wbc2qgSBX1RZV9s=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

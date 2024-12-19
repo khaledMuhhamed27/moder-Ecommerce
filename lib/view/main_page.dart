@@ -34,7 +34,7 @@ class _MainPageState extends State<MainPage> {
         fontWeight: FontWeight.bold,
       ),
     )),
-    MyProfile(),
+    const MyProfile(),
   ];
   @override
   Widget build(BuildContext context) {

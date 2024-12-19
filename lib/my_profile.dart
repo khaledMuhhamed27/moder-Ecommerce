@@ -10,11 +10,16 @@ class MyProfile extends StatelessWidget {
     return Scaffold(
       backgroundColor: kbgColor,
       body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            // My Image
+            Image.asset(
+              'assets/food-delivery(foodel)/binary_khaled.jpeg',
+              width: 100,
+            ),
             // My Name
 
             Container(
